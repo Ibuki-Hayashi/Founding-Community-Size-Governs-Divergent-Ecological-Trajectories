@@ -1,11 +1,10 @@
-このリポジトリには、論文「」に必要なコードと生データ（DNA配列の処理以降）が格納されています。
-生のDNA配列は、DDBJの「」からダウンロード可能です。
+This repository contains the code and raw data (after DNA sequence processing) used for the analysis in the paper titled *"Stochastic Forces in Microbial Community Assembly: Founding Community Size Governs Divergent Ecological Trajectories"* (bioRxiv version: https://doi.org/10.1101/2025.08.09.669462).  
+The raw DNA sequences can be downloaded from DDBJ (BioProject: PRJDB35809).
 
-1. DDBJからダウンロードした配列（生データ）を参照して、Tableフォルダ内のファイルを作るスクリプトが〜に入っています。
-2. DDBJからダウンロードされた配列はそれぞれの6つのDRA番号について、独立に〜フォルダ内のScript1~3までについて回されると、それぞれのDRA番号ごとに"stall_no_rmchimera.rds"が出力されます。
-3. これらを1つのフォルダに集め（DRAフォルダ）、mergeSequenceTable.R をそのフォルダを対象に回すことで、Tableフォルダ内のファイルを得ることができます。
+1. For each of the six DRA accession numbers, the downloaded sequences are processed independently with **Script1–3** in the folder **Fastq2nochim**, which produces a file named `stall_no_rmchimera.rds` (already included in the folder **DRA**) for each DRA accession.
 
-#- 通常この下から回す。
+2. By gathering these files into a single folder (**DRA**) and running `mergeSequenceTable.R` on that folder, you can obtain the files in the **Table** folder.
 
-4. Tableフォルダ内のファイルを参照して、Dataを作るスクリプトが〜に入っています。
-5. Dataフォルダ内のファイルを参照して、Mainに入っているスクリプトを順番に回してください。
+3. The folder **Data_process** contains scripts that generate the files in the **Data** folder, based on the files in the **Table** folder.
+
+4. Finally, please run the scripts in **Main** sequentially, using the files in the **Data** folder as input.
