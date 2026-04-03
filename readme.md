@@ -1,4 +1,4 @@
-# Microbial Community Assembly Analysis
+# Codes for the paper titled: Stochastic Forces in Microbial Community Assembly: Founding Community Size Governs Divergent Ecological Trajectories
 
 This repository contains the code and processed data used in the study:
 
@@ -77,7 +77,7 @@ Before use:
 ### Execution
 
 ```bash
-bash MASTERscript.sh
+bash MASTER_script.sh
 ```
 
 ### Notes
@@ -96,7 +96,7 @@ bash MASTERscript.sh
 For most users, start from the main analysis:
 
 ```bash
-bash MASTERscript.sh
+bash MASTER_script.sh
 ```
 
 ---
