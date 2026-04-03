@@ -1,0 +1,54 @@
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS Sequoia 15.6.1
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Tokyo
+tzcode source: internal
+
+attached base packages:
+ [1] stats4    grid      parallel  stats     graphics  grDevices datasets  utils     methods   base     
+
+other attached packages:
+ [1] vegan_2.6-6.1            lattice_0.22-7           permute_0.9-8            lubridate_1.9.4         
+ [5] forcats_1.0.1            purrr_1.2.0              readr_2.1.6              tidyverse_2.0.0         
+ [9] tidygraph_1.3.1          tidyr_1.3.1              tibble_3.3.0             stringr_1.6.0           
+[13] stringdist_0.9.15        seqinr_4.2-36            scales_1.4.0             rELA_0.80               
+[17] renv_1.0.7               reshape2_1.4.5           RasperGade16S_0.0.1.0000 phyloseq_1.54.2         
+[21] RasperGade_0.1.0.0000    pracma_2.4.6             bbmle_1.0.25.1           ape_5.8-1               
+[25] RColorBrewer_1.1-3       ppcor_1.1                plyr_1.8.9               plotly_4.11.0           
+[29] philentropy_0.10.0       openxlsx_4.2.8.1         multimode_1.5            mgcv_1.9-3              
+[33] nlme_3.1-168             MCMCpack_1.7-1           coda_0.19-4.1            MASS_7.3-65             
+[37] markdown_2.0             lmerTest_3.1-3           lme4_1.1-38              Matrix_1.7-4            
+[41] lemon_0.5.2              igraph_2.2.1             gridExtra_2.3            gtools_3.9.5            
+[45] ggh4x_0.3.1              ggtext_0.1.2             ggsci_4.2.0              ggplate_0.2.0           
+[49] ggnewscale_0.5.2         ggforce_0.5.0            ggplot2_4.0.1            ecoregime_0.3.0         
+[53] dplyr_1.1.4              doParallel_1.0.17        iterators_1.0.14         foreach_1.5.2           
+[57] cowplot_1.2.0            cluster_2.1.8.1         
+
+loaded via a namespace (and not attached):
+ [1] rstudioapi_0.17.1     jsonlite_2.0.0        magrittr_2.0.4        farver_2.1.2         
+ [5] nloptr_2.2.1          zlibbioc_1.50.0       vctrs_0.6.5           multtest_2.66.0      
+ [9] minqa_1.2.8           htmltools_0.5.9       KernSmooth_2.23-26    htmlwidgets_1.6.4    
+[13] rootSolve_1.8.2.4     lifecycle_1.0.5       pkgconfig_2.0.3       R6_2.6.1             
+[17] fastmap_1.2.0         rbibutils_2.4         digest_0.6.39         numDeriv_2016.8-1.1  
+[21] S4Vectors_0.48.0      timechange_0.3.0      httr_1.4.7            polyclip_1.10-7      
+[25] compiler_4.5.2        withr_3.0.2           S7_0.2.1              quantreg_6.1         
+[29] biomformat_1.38.3     tools_4.5.2           zip_2.3.3             glue_1.8.0           
+[33] gridtext_0.1.5        ade4_1.7-24           generics_0.1.4        gtable_0.3.6         
+[37] tzdb_0.5.0            hms_1.1.4             data.table_1.17.8     xml2_1.5.1           
+[41] XVector_0.44.0        BiocGenerics_0.56.0   pillar_1.11.1         splines_4.5.2        
+[45] tweenr_2.0.3          survival_3.8-3        SparseM_1.84-2        ks_1.15.1            
+[49] tidyselect_1.2.1      Biostrings_2.78.0     knitr_1.50            reformulas_0.4.2     
+[53] IRanges_2.38.1        Seqinfo_1.0.0         mcmc_0.9-8            xfun_0.54            
+[57] Biobase_2.70.0        diptest_0.77-2        stringi_1.8.7         lazyeval_0.2.2       
+[61] boot_1.3-32           evaluate_1.0.5        codetools_0.2-20      BiocManager_1.30.27  
+[65] cli_3.6.5             RcppParallel_5.1.11-1 Rdpack_2.6.4          Rcpp_1.1.0           
+[69] bdsmatrix_1.3-7       MatrixModels_0.5-4    mclust_6.1.2          viridisLite_0.4.2    
+[73] mvtnorm_1.3-3         crayon_1.5.3          rlang_1.1.7          
