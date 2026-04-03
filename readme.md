@@ -1,4 +1,4 @@
-# Codes for the paper titled: Stochastic Forces in Microbial Community Assembly: Founding Community Size Governs Divergent Ecological Trajectories
+# Codes for the paper titled "Stochastic Forces in Microbial Community Assembly: Founding Community Size Governs Divergent Ecological Trajectories"
 
 This repository contains the code and processed data used in the study:
 
